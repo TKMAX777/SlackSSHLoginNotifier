@@ -12,14 +12,6 @@ var HostName string
 var UserName string
 var ClientIP string
 
-func getEnv(key, defaultValue string) string {
-	val := os.Getenv(key)
-	if val != "" {
-		return val
-	}
-	return defaultValue
-}
-
 func init() {
 	var hook = os.Getenv("SSHSlackHookURL")
 	if hook == "" {
