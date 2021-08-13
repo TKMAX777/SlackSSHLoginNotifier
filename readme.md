@@ -21,6 +21,6 @@ SSHでログインされたとき、Slackでそれを監視したい
 `/etc/ssh/sshrc `
 
 ```
-SSHSlackHookURL="HOOK URI" SSHSlackMessage
+SSHSlackHookURL="HOOK URI" SlackSSHLoginNotifier
 ```
 
